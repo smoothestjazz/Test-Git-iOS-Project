@@ -23,6 +23,7 @@
 		524BB33C1AB718F40047CBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524BB3171AB718F30047CBF6 /* Foundation.framework */; };
 		524BB3441AB718F40047CBF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 524BB3421AB718F40047CBF6 /* InfoPlist.strings */; };
 		524BB3471AB718F40047CBF6 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524BB3461AB718F40047CBF6 /* Git_TestTests.m */; };
+		524BB3521AB71B320047CBF6 /* RATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 524BB3511AB71B320047CBF6 /* RATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		524BB3431AB718F40047CBF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		524BB3451AB718F40047CBF6 /* Git_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Git_TestTests.h; sourceTree = "<group>"; };
 		524BB3461AB718F40047CBF6 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		524BB3501AB71B320047CBF6 /* RATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATest.h; sourceTree = "<group>"; };
+		524BB3511AB71B320047CBF6 /* RATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 		524BB3091AB718F30047CBF6 = {
 			isa = PBXGroup;
 			children = (
+				524BB3501AB71B320047CBF6 /* RATest.h */,
+				524BB3511AB71B320047CBF6 /* RATest.m */,
 				524BB31B1AB718F30047CBF6 /* Git Test */,
 				524BB33F1AB718F40047CBF6 /* Git TestTests */,
 				524BB3141AB718F30047CBF6 /* Frameworks */,
@@ -274,6 +279,7 @@
 				524BB3221AB718F30047CBF6 /* main.m in Sources */,
 				524BB3261AB718F30047CBF6 /* RAAppDelegate.m in Sources */,
 				524BB3321AB718F40047CBF6 /* RAViewController.m in Sources */,
+				524BB3521AB71B320047CBF6 /* RATest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
